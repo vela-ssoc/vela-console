@@ -61,7 +61,13 @@ fasthttp>> use kafka
 fasthttp.kafka>> show
 .....
 fasthttp.kafka>> quit
-fasthttp>>
+fasthttp>>|
+>> file.cat('aa')
+>> ping(www.baidu.com)
+>>
+
+>>
+
 ```
 
 ### .key

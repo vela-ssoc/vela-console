@@ -24,7 +24,7 @@ func newServ() *Serv {
 }
 
 func (s *Serv) Name() string {
-	return "vela-console.server"
+	return "console.server"
 }
 
 func (s *Serv) NewSession(conn net.Conn) *session {
